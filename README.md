@@ -3,9 +3,9 @@
 * note about how is structured in git this application  
   The following branch are created:  
   01-behaviour-scenarios  
-    bin/cucumber will failed in the 1fst scenario but green in the 2 others
+    bin/cucumber will failed in the 1fst scenario but green in the 2 others  
   02-add-button-apocalypse-and-coffee  
-    bin/cucumber will failed in the three scenarios
+    bin/cucumber will failed in the three scenarios  
   03-route_to_delete  
     bin/cucumber will failed in the 3 scenarios  
     bin/rspec pass the routing test  
@@ -13,7 +13,12 @@
     bin/rspec will pass the request spec  
     bin/cucumber will pass in the first scenario but fail in the other 2  
   05-filter-in-view  
-    all green
+    all green  
+
+  you can pass to one branch to another with:
+  <pre>
+    git checkout <branch>
+  </pre>
 
 * note about configuration
 
